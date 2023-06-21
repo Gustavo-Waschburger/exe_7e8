@@ -1,0 +1,61 @@
+html, body{
+    height: 100%;
+}
+body{
+    padding: 10px;
+    
+}
+.conteudo{
+    padding: 15px;    
+    background-color: aquamarine;
+    height: 50%;
+    width: 50%;
+    border: 5px rgb(1, 63, 82) double;
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+.voltar{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+svg{
+    width: 12px;
+    fill: white;
+}
+.info{
+    position: absolute;
+    padding: 2px;
+    /*width: auto;
+    height: 12px;*/
+    font-size: 12px;
+    top: -10px;
+    left: -15px;
+    background-color: goldenrod;
+    color: white;
+    border: 2px solid rgb(36, 105, 4);
+    border-radius: 5px;
+    display: flex;
+    justify-content: baseline;
+    gap: 5px;    
+}
+.info_texto{
+    border-left: 2px solid white ;
+    padding-left: 5px;
+}
+.destaque{
+    background-color: rgb(129, 127, 127);
+    border: 0px ;
+}
+.voltar{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.casa{
+    width: 25px;
+}
